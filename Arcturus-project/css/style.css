@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anybody', cursive;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    background-color: #001220;
+    position: fixed;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    color: #715DF2;;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {    
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-right: 20px;
+    padding-top: 22px;
+}
+
+li a {
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.brand h2 {
+    padding: 20px;
+}
+
+.content {
+    position: relative;
+    display: flex;  
+    flex-direction: column;
+    background-image: url(../assets/bg/layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.content-1 {
+    
+    min-height: 100vh;
+}
+
+.hero {
+    margin-top: 150px;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+.exp-btn {
+    margin-top: 50px;   
+    font-size: 40px;
+}
+
+.exp-btn a {
+    text-decoration: none;
+    color: #715DF2;
+    transition: 0.6s;
+}
+
+.exp-btn a:hover {
+    color: white;
+}
+.content-2 {
+    margin-top: 100px;
+    height: 100vh;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+
+.title-reason {
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px 100px 0px 0px;
+}
+
+.title-reason h2 {
+    font-size: 50px;
+}
+
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5rem;
+    padding: 20px 100px 0px 100px;
+    height: auto;
+}
+
+.icon img {
+    width: 170px;
+}
+
+.icon p {
+    padding: 30px;
+    margin: 40px;
+}
+
+.icon1 p {
+    border-left: 5px solid #001220;
+}
+
+.icon2 p {
+    border-right: 5px solid #001220;
+}
+
+.icon1 {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5rem;
+}
+
+.icon2 {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10rem;
+}
+
+.packages-btn {
+    padding: 0px 0px 150px 80px;
+}
+
+.packages-btn button {
+    background-color: #021c30;
+    border: 0;
+    border-radius: 75px;
+    width: 30%;
+    height: 50px;
+    transition: 0.8s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.packages-btn button:hover {
+    background-color: white;
+    color: #021c30;
+}
+
+.content-3 {
+    height: auto;
+    margin-top: 70px;
+    padding-top: 70px;
+    margin-bottom: 10rem;
+}
+
+.packages-text {
+    padding: 50px 0px 0px 80px;
+    font-size: 33px;
+}
+
+.card-container-1, .card-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+
+.card {
+    width: 40%;
+    height: 230px;
+    border-radius: 20px;
+    background-color: #021c30;
+    box-shadow: 0 0 10px #001220;
+    padding: 40px 20px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    transition: .6s;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px #001220;
+}
+
+.text-kecepatan p {
+    font-size: 30px;
+}
+
+.deskripsi-paket p {
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.harga-paket {
+    font-size: 20px;
+}
+
+.subs-btn button {
+    border-radius: 100px;
+    padding: 10px;
+    width: 50%;
+    height: 40px;
+    border: 0;
+    background-color: #5c49db;
+    transition: 0.6s;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.subs-btn button:hover {
+    width: 53%;
+    background-color: whitesmoke;
+    color: #715DF2;
+}
+
+.text-kecepatan {
+    border-bottom: 6px solid #5c49db;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    width: 25%;
+}
+
+
+.footer {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    height: 40px;
+    background-color: #001220;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .medsos {
+    display: flex;
+    gap: 4rem;
+}
+
